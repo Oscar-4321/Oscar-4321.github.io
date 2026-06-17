@@ -57,3 +57,12 @@ header, footer {
   text-align: center;
   margin: 20px 0;
 }
+
+body.dark {
+  background: #11110f;
+  color: #e6e2d9;
+}
+
+body.dark a {
+  color: #b7c9c2;
+}
