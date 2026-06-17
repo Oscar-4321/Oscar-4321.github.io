@@ -7,14 +7,6 @@
   --accent: #4f46e5;
 }
 
-body.dark {
-  --bg: #0f1115;
-  --text: #eaeaea;
-  --muted: #aaa;
-  --card: #161a22;
-  --border: #2a2f3a;
-}
-
 body {
   margin: 0;
   font-family: system-ui, -apple-system, Arial;
@@ -93,12 +85,4 @@ a:hover {
   text-align: center;
   padding: 40px;
   color: var(--muted);
-}
-
-/* DARK MODE BUTTON */
-.toggle {
-  border: none;
-  background: transparent;
-  font-size: 18px;
-  cursor: pointer;
 }
