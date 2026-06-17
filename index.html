@@ -2,46 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Notes & Experiments</title>
+  <title>My Notes</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<body>
+
+<header class="header">
+  <div class="logo">MySite</div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Writing</a>
+    <a href="#">About</a>
+  </nav>
+
+  <button class="toggle" onclick="toggleDark()">🌙</button>
+</header>
+
+<section class="hero">
+  <h1>Thinking in Progress</h1>
+  <p>A space for essays, ideas, and experiments.</p>
+</section>
+
+<main class="content">
+
+  <article class="card">
+    <h2>First Essay</h2>
+    <p>
+      This is where your writing goes. You can treat each section like a blog post
+      instead of one long document.
+    </p>
+  </article>
+
+  <article class="card">
+    <h2>Another Idea</h2>
+    <p>
+      Break things into chunks. This makes it feel like a real website rather than a file.
+    </p>
+  </article>
+
+</main>
+
+<footer class="footer">
+  <p>Built with GitHub Pages</p>
+</footer>
+
 <script>
 function toggleDark() {
   document.body.classList.toggle("dark");
 }
 </script>
-  <body>
-
-  <button class="toggle" onclick="toggleDark()">Dark Mode</button>
-  <main class="content">
-    <h1>Notes on Thinking</h1>
-    <p class="subtitle">An ongoing experiment</p>
-
-    <p>
-      This website is a place to experiment with ideas, essays,
-      and unfinished thoughts. Nothing here is final.
-    </p>
-
-    <p>
-      You can write long-form text like an essay. Focus on clarity,
-      spacing, and flow rather than decoration.
-    </p>
-
-    <h2>First Section</h2>
-    <p>
-      Essay-style writing benefits from generous spacing and
-      readable fonts. This layout keeps distractions to a minimum.
-    </p>
-
-    <blockquote>
-      “Writing is thinking on the page.”
-    </blockquote>
-
-    <p>
-      Add more paragraphs as needed. You can always edit this later.
-    </p>
-
-  </main>
 
 </body>
 </html>
