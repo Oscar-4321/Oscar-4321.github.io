@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Home
+title: 
 ---
 
-# Welcome
+# Notes
 
-This is my writing space.
+A quiet place for writing, thinking, and unfinished ideas.
 
-New posts appear below automatically.
+---
