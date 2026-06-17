@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intro</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      perspective: 800px;
+    }
+
+    .house {
+      width: 120px;
+      height: 120px;
+      background: #f5f5f5;
+      position: relative;
+      transform: scale(0.2) translateZ(-800px);
+      animation: rushIn 2.5s ease-out forwards;
+    }
+
+    .roof {
+      width: 0;
+      height: 0;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-bottom: 60px solid #d94b4b;
+      position: absolute;
+      top: -60px;
+      left: 0;
+    }
+
+    @keyframes rushIn {
+      0% {
+        transform: scale(0.1) translateZ(-1000px);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(3) translateZ(0px);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="house">
+  <div class="roof"></div>
+</div>
+
+<script>
+setTimeout(() => {
+  window.location.href = "index.html";
+}, 3000);
+</script>
+
+</body>
+</html>
