@@ -5,8 +5,14 @@
   <title>Notes & Experiments</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<script>
+function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+</script>
+  <body>
 
+  <button class="toggle" onclick="toggleDark()">Dark Mode</button>
   <main class="content">
     <h1>Notes on Thinking</h1>
     <p class="subtitle">An ongoing experiment</p>
