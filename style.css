@@ -79,6 +79,15 @@ nav a:hover {
   border-radius: 12px;
 }
 
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
 /* FOOTER */
 .footer {
   text-align: center;
