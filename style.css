@@ -1,9 +1,24 @@
+:root {
+  --bg: #fafafa;
+  --text: #222;
+  --muted: #666;
+  --border: #ccc;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #eaeaea;
+  --muted: #aaa;
+  --border: #333;
+}
+
 body {
-  background-color: #fafafa;
-  color: #222;
+  background-color: var(--bg);
+  color: var(--text);
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.7;
   margin: 0;
+  transition: 0.3s ease;
 }
 
 .content {
@@ -14,12 +29,10 @@ body {
 
 h1 {
   font-size: 2.4em;
-  margin-bottom: 0.2em;
 }
 
 .subtitle {
-  color: #666;
-  margin-bottom: 2em;
+  color: var(--muted);
 }
 
 h2 {
@@ -33,7 +46,20 @@ p {
 blockquote {
   margin: 2em 0;
   padding-left: 1em;
-  border-left: 3px solid #ccc;
-  color: #555;
+  border-left: 3px solid var(--border);
+  color: var(--muted);
   font-style: italic;
+}
+
+/* Dark mode button */
+.toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  border-radius: 6px;
 }
