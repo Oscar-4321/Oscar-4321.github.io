@@ -2,34 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Film Library</title>
+  <title>Film Recommendations</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>🎬 Personal Film Library</h1>
-    <p>Favourites collection</p>
-  </header>
+  <div class="container">
 
-  <main>
+    <header>
+      <h1>My Film Recommendations</h1>
+      <p>A personal list of films I recommend</p>
+    </header>
 
-    <div class="film-card">
-      <img src="images/46344-fantastic-mr-fox-0-2000-0-3000-crop.jpg" alt="Mr.Fox">
-      <h2>Fantastic Mr Fox</h2>
-      <p>⭐ Rating: 10</p>
-      <button onclick="likeFilm(this)">❤️ Like</button>
-    </div>
+    <main>
 
-    <div class="film-card">
-      <img src="images/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Drive">
-      <h2>Drive</h2>
-      <p>⭐ Rating: 10</p>
-      <button onclick="likeFilm(this)">❤️ Like</button>
-    </div>
+      <article class="film">
+        <h2>Mr.Fox</h2>
+        <p class="meta">2009 • Sci-Fi • ⭐ 8.8</p>
 
-  </main>
+        <img src="images/Mr.Fox.jpg" alt="Mr.Fox poster">
 
-  <script src="script.js"></script>
+        <p>
+          A mind-bending thriller about dreams within dreams.
+          One of the most iconic modern sci-fi films.
+        </p>
+      </article>
+
+      <hr>
+
+      <article class="film">
+        <h2>Drive</h2>
+        <p class="meta">2014 • Sci-Fi • ⭐ 8.6</p>
+
+        <img src="images/Drive.jpg" alt="Drive poster">
+
+        <p>
+          A journey through space, time, and human survival.
+          Emotional and visually stunning.
+        </p>
+      </article>
+
+    </main>
+
+  </div>
+
 </body>
 </html>
