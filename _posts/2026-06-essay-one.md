@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "My First Essay"
+title: "nothingness"
 ---
 
-This is my first essay.
-
-I can just write normally here like a notebook.
+This is some words.
 
 No HTML needed.
