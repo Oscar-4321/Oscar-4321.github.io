@@ -1,9 +1,44 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  padding: 40px;
+  margin: 0;
+  background: #f4f4f4;
 }
 
-h1 {
-  color: #333;
+header {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.film-card {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.film-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
