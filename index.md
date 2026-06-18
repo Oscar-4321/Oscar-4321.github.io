@@ -1,10 +1,10 @@
 ---
 layout: home
-title: 
+title: Second Title
 ---
 
-# Notes
+# Notes from the underground
 
-A quiet place for writing, thinking, and unfinished ideas.
+Only unfinished ideas.
 
 ---
